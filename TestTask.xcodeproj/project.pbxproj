@@ -21,6 +21,8 @@
 		CF481D18283D26F200B1F519 /* Extension + TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D17283D26F200B1F519 /* Extension + TextField.swift */; };
 		CF481D1A283D275300B1F519 /* Extension + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D19283D275300B1F519 /* Extension + String.swift */; };
 		CF481D1D283D362D00B1F519 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CF481D1C283D362D00B1F519 /* SDWebImage */; };
+		CF481D22283D37E400B1F519 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D20283D37E400B1F519 /* ProductCell.swift */; };
+		CF481D23283D37E400B1F519 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF481D21283D37E400B1F519 /* ProductCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		CF481D14283D004800B1F519 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CF481D17283D26F200B1F519 /* Extension + TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + TextField.swift"; sourceTree = "<group>"; };
 		CF481D19283D275300B1F519 /* Extension + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + String.swift"; sourceTree = "<group>"; };
+		CF481D20283D37E400B1F519 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		CF481D21283D37E400B1F519 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				CF481CF4283CEDB500B1F519 /* HomeViewController.swift */,
 				CF481D05283CF2DA00B1F519 /* RegistrationViewController.swift */,
 				CF481D09283CFD3400B1F519 /* DashboardViewController.swift */,
+				CF481D20283D37E400B1F519 /* ProductCell.swift */,
+				CF481D21283D37E400B1F519 /* ProductCell.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -212,6 +218,7 @@
 			files = (
 				CF481CFD283CEDB700B1F519 /* LaunchScreen.storyboard in Resources */,
 				CF481D08283CF62900B1F519 /* Flutter task (3).pdf in Resources */,
+				CF481D23283D37E400B1F519 /* ProductCell.xib in Resources */,
 				CF481CFA283CEDB700B1F519 /* Assets.xcassets in Resources */,
 				CF481CF8283CEDB500B1F519 /* Main.storyboard in Resources */,
 			);
@@ -231,6 +238,7 @@
 				CF481D06283CF2DA00B1F519 /* RegistrationViewController.swift in Sources */,
 				CF481D1A283D275300B1F519 /* Extension + String.swift in Sources */,
 				CF481D15283D004800B1F519 /* NetworkManager.swift in Sources */,
+				CF481D22283D37E400B1F519 /* ProductCell.swift in Sources */,
 				CF481CF3283CEDB500B1F519 /* SceneDelegate.swift in Sources */,
 				CF481D18283D26F200B1F519 /* Extension + TextField.swift in Sources */,
 			);
