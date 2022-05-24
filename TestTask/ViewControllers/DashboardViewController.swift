@@ -8,18 +8,15 @@
 import UIKit
 
 class DashboardViewController: UITableViewController {
-    let nm = NetworkManager.shared
-    var products: [Product] = [] {
+    
+    private var products: [Product] = [] {
         didSet{
             DispatchQueue.main.async {
-                  print("data saved")
                   self.tableView.reloadData()
               }
         }
     }
-    
-    
-    
+
     init() {
         super.init(style: .plain)
         getProducts()
@@ -31,10 +28,7 @@ class DashboardViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-//        tableView.separatorStyle = .none
-
-
+        registerNibCell()
     }
 
     // MARK: - Table view data source
@@ -46,18 +40,25 @@ class DashboardViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ProductCell", for: indexPath) as? ProductCell else {
+            return UITableViewCell()
+        }
         
         let product = products[indexPath.row]
+        cell.configure(with: product)
         
-        cell.textLabel?.text = product.title
-        
-
         return cell
     }
     
+    
+    private func registerNibCell() {
+        let productCell = UINib(nibName: "ProductCell", bundle: nil)
+        tableView.register(productCell, forCellReuseIdentifier: "ProductCell")
+    }
+    
     private func getProducts() {
-        nm.fetchProducts {[weak self] result in
+        let nm = NetworkManager.shared
+        nm.fetchProducts { [weak self] result in
             guard let self = self else { return }
             switch result {
             case .success(let fproducts):

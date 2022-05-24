@@ -14,7 +14,6 @@
 		CF481CFA283CEDB700B1F519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF481CF9283CEDB700B1F519 /* Assets.xcassets */; };
 		CF481CFD283CEDB700B1F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF481CFB283CEDB700B1F519 /* LaunchScreen.storyboard */; };
 		CF481D06283CF2DA00B1F519 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D05283CF2DA00B1F519 /* RegistrationViewController.swift */; };
-		CF481D08283CF62900B1F519 /* Flutter task (3).pdf in Resources */ = {isa = PBXBuildFile; fileRef = CF481D07283CF62900B1F519 /* Flutter task (3).pdf */; };
 		CF481D0A283CFD3400B1F519 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D09283CFD3400B1F519 /* DashboardViewController.swift */; };
 		CF481D11283CFE1500B1F519 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D10283CFE1500B1F519 /* ProductModel.swift */; };
 		CF481D15283D004800B1F519 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D14283D004800B1F519 /* NetworkManager.swift */; };
@@ -35,7 +34,6 @@
 		CF481CFC283CEDB700B1F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF481CFE283CEDB700B1F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF481D05283CF2DA00B1F519 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
-		CF481D07283CF62900B1F519 /* Flutter task (3).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flutter task (3).pdf"; sourceTree = "<group>"; };
 		CF481D09283CFD3400B1F519 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		CF481D10283CFE1500B1F519 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		CF481D14283D004800B1F519 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				CF481D0E283CFDC400B1F519 /* Model */,
 				CF481D0B283CFD9700B1F519 /* ViewControllers */,
 				CF481D0C283CFDA300B1F519 /* Storyboards */,
-				CF481D07283CF62900B1F519 /* Flutter task (3).pdf */,
 			);
 			path = TestTask;
 			sourceTree = "<group>";
@@ -217,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF481CFD283CEDB700B1F519 /* LaunchScreen.storyboard in Resources */,
-				CF481D08283CF62900B1F519 /* Flutter task (3).pdf in Resources */,
 				CF481D23283D37E400B1F519 /* ProductCell.xib in Resources */,
 				CF481CFA283CEDB700B1F519 /* Assets.xcassets in Resources */,
 				CF481CF8283CEDB500B1F519 /* Main.storyboard in Resources */,

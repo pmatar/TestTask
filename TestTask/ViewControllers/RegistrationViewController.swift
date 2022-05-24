@@ -17,10 +17,7 @@ class RegistrationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         view.backgroundColor = .systemMint
-
-        
     }
     
     
@@ -46,11 +43,9 @@ class RegistrationViewController: UIViewController {
         }
         
         showAlert(title: "Registered", message: "You are registered", completion: dismissWithAlert(alert:))
-//        dismiss(animated: true)
-        print("pressed")
     }
     
-    func dismissWithAlert(alert: UIAlertAction) {
+    private func dismissWithAlert(alert: UIAlertAction) {
         dismiss(animated: true)
     }
     
@@ -58,7 +53,6 @@ class RegistrationViewController: UIViewController {
         let alert = UIAlertController(title: title,
                                       message: message,
                                       preferredStyle: .alert)
-//        let action = UIAlertAction(title: "OK", style: .cancel)
         let action = UIAlertAction(title: "OK", style: .cancel, handler: completion)
         alert.addAction(action)
         present(alert, animated: true)

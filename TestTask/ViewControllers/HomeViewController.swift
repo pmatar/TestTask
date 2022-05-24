@@ -8,8 +8,6 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,24 +16,21 @@ class HomeViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(dashBarButtonTapped))
     }
 
-    @objc func regBarButtonTapped() {
+    @objc private func regBarButtonTapped() {
         if let regVC = storyboard?.instantiateViewController(withIdentifier: "RegistrationViewController") {
-//            regVC.modalPresentationStyle = .overFullScreen
             present(regVC, animated: true)
         }
     }
     
-    @objc func dashBarButtonTapped() {
+    @objc private func dashBarButtonTapped() {
         let dashVC = DashboardViewController()
-        
-//            dashVC.modalPresentationStyle = .overFullScreen
         present(dashVC, animated: true)
     }
     
     
     private func setupBackgroundImage() {
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.alpha = 0.2
+        backgroundImage.alpha = 0.4
         backgroundImage.image = UIImage(named: "bg")
         backgroundImage.contentMode = .scaleAspectFill
         view.insertSubview(backgroundImage, at: 0)

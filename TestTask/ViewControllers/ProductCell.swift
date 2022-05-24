@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ProductCell: UITableViewCell {
     @IBOutlet weak var productImageView: UIImageView!
@@ -13,15 +14,10 @@ class ProductCell: UITableViewCell {
     @IBOutlet weak var secondLabel: UILabel!
     @IBOutlet weak var thirdLabel: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    func configure(with product: Product) {
+        firstLabel.text = "\(product.title) \nCategory: \(product.category)"
+        secondLabel.text = product.description
+        thirdLabel.text = "ID: \(product.id) price: \(product.price) rating: \(product.rating.rate) count: \(product.rating.count)"
+        productImageView.sd_setImage(with: product.image, placeholderImage: UIImage(systemName: "photo"))
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
 }
