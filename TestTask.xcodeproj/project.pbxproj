@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		CF481CF1283CEDB500B1F519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481CF0283CEDB500B1F519 /* AppDelegate.swift */; };
 		CF481CF3283CEDB500B1F519 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481CF2283CEDB500B1F519 /* SceneDelegate.swift */; };
-		CF481CF5283CEDB500B1F519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481CF4283CEDB500B1F519 /* ViewController.swift */; };
+		CF481CF5283CEDB500B1F519 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481CF4283CEDB500B1F519 /* HomeViewController.swift */; };
 		CF481CF8283CEDB500B1F519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF481CF6283CEDB500B1F519 /* Main.storyboard */; };
 		CF481CFA283CEDB700B1F519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF481CF9283CEDB700B1F519 /* Assets.xcassets */; };
 		CF481CFD283CEDB700B1F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF481CFB283CEDB700B1F519 /* LaunchScreen.storyboard */; };
+		CF481D06283CF2DA00B1F519 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D05283CF2DA00B1F519 /* RegistrationViewController.swift */; };
+		CF481D08283CF62900B1F519 /* Flutter task (3).pdf in Resources */ = {isa = PBXBuildFile; fileRef = CF481D07283CF62900B1F519 /* Flutter task (3).pdf */; };
+		CF481D0A283CFD3400B1F519 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D09283CFD3400B1F519 /* DashboardViewController.swift */; };
+		CF481D11283CFE1500B1F519 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D10283CFE1500B1F519 /* ProductModel.swift */; };
+		CF481D15283D004800B1F519 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D14283D004800B1F519 /* NetworkManager.swift */; };
+		CF481D18283D26F200B1F519 /* Extension + TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D17283D26F200B1F519 /* Extension + TextField.swift */; };
+		CF481D1A283D275300B1F519 /* Extension + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF481D19283D275300B1F519 /* Extension + String.swift */; };
+		CF481D1D283D362D00B1F519 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CF481D1C283D362D00B1F519 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF481CED283CEDB500B1F519 /* TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF481CF0283CEDB500B1F519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF481CF2283CEDB500B1F519 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF481CF4283CEDB500B1F519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF481CF4283CEDB500B1F519 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CF481CF7283CEDB500B1F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF481CF9283CEDB700B1F519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF481CFC283CEDB700B1F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF481CFE283CEDB700B1F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF481D05283CF2DA00B1F519 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		CF481D07283CF62900B1F519 /* Flutter task (3).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flutter task (3).pdf"; sourceTree = "<group>"; };
+		CF481D09283CFD3400B1F519 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CF481D10283CFE1500B1F519 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		CF481D14283D004800B1F519 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CF481D17283D26F200B1F519 /* Extension + TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + TextField.swift"; sourceTree = "<group>"; };
+		CF481D19283D275300B1F519 /* Extension + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF481D1D283D362D00B1F519 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,78 @@
 		CF481CEF283CEDB500B1F519 /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
-				CF481CF0283CEDB500B1F519 /* AppDelegate.swift */,
-				CF481CF2283CEDB500B1F519 /* SceneDelegate.swift */,
-				CF481CF4283CEDB500B1F519 /* ViewController.swift */,
-				CF481CF6283CEDB500B1F519 /* Main.storyboard */,
-				CF481CF9283CEDB700B1F519 /* Assets.xcassets */,
-				CF481CFB283CEDB700B1F519 /* LaunchScreen.storyboard */,
-				CF481CFE283CEDB700B1F519 /* Info.plist */,
+				CF481D16283D26E100B1F519 /* Extensions */,
+				CF481D0D283CFDAF00B1F519 /* Resources */,
+				CF481D04283CF27800B1F519 /* App */,
+				CF481D0F283CFDCF00B1F519 /* Services */,
+				CF481D0E283CFDC400B1F519 /* Model */,
+				CF481D0B283CFD9700B1F519 /* ViewControllers */,
+				CF481D0C283CFDA300B1F519 /* Storyboards */,
+				CF481D07283CF62900B1F519 /* Flutter task (3).pdf */,
 			);
 			path = TestTask;
+			sourceTree = "<group>";
+		};
+		CF481D04283CF27800B1F519 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CF481CF0283CEDB500B1F519 /* AppDelegate.swift */,
+				CF481CF2283CEDB500B1F519 /* SceneDelegate.swift */,
+				CF481CFE283CEDB700B1F519 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CF481D0B283CFD9700B1F519 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF481CF4283CEDB500B1F519 /* HomeViewController.swift */,
+				CF481D05283CF2DA00B1F519 /* RegistrationViewController.swift */,
+				CF481D09283CFD3400B1F519 /* DashboardViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CF481D0C283CFDA300B1F519 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CF481CF6283CEDB500B1F519 /* Main.storyboard */,
+				CF481CFB283CEDB700B1F519 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CF481D0D283CFDAF00B1F519 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF481CF9283CEDB700B1F519 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF481D0E283CFDC400B1F519 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF481D10283CFE1500B1F519 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF481D0F283CFDCF00B1F519 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CF481D14283D004800B1F519 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CF481D16283D26E100B1F519 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF481D17283D26F200B1F519 /* Extension + TextField.swift */,
+				CF481D19283D275300B1F519 /* Extension + String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +162,9 @@
 			dependencies = (
 			);
 			name = TestTask;
+			packageProductDependencies = (
+				CF481D1C283D362D00B1F519 /* SDWebImage */,
+			);
 			productName = TestTask;
 			productReference = CF481CED283CEDB500B1F519 /* TestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +193,9 @@
 				Base,
 			);
 			mainGroup = CF481CE4283CEDB500B1F519;
+			packageReferences = (
+				CF481D1B283D362D00B1F519 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = CF481CEE283CEDB500B1F519 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF481CFD283CEDB700B1F519 /* LaunchScreen.storyboard in Resources */,
+				CF481D08283CF62900B1F519 /* Flutter task (3).pdf in Resources */,
 				CF481CFA283CEDB700B1F519 /* Assets.xcassets in Resources */,
 				CF481CF8283CEDB500B1F519 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF481CF5283CEDB500B1F519 /* ViewController.swift in Sources */,
+				CF481CF5283CEDB500B1F519 /* HomeViewController.swift in Sources */,
+				CF481D11283CFE1500B1F519 /* ProductModel.swift in Sources */,
 				CF481CF1283CEDB500B1F519 /* AppDelegate.swift in Sources */,
+				CF481D0A283CFD3400B1F519 /* DashboardViewController.swift in Sources */,
+				CF481D06283CF2DA00B1F519 /* RegistrationViewController.swift in Sources */,
+				CF481D1A283D275300B1F519 /* Extension + String.swift in Sources */,
+				CF481D15283D004800B1F519 /* NetworkManager.swift in Sources */,
 				CF481CF3283CEDB500B1F519 /* SceneDelegate.swift in Sources */,
+				CF481D18283D26F200B1F519 /* Extension + TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +381,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L7KZPDRX49;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestTask/Info.plist;
+				INFOPLIST_FILE = TestTask/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +409,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L7KZPDRX49;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestTask/Info.plist;
+				INFOPLIST_FILE = TestTask/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF481D1B283D362D00B1F519 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF481D1C283D362D00B1F519 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF481D1B283D362D00B1F519 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF481CE5283CEDB500B1F519 /* Project object */;
 }
